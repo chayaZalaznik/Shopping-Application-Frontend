@@ -18,6 +18,7 @@ The Shopping Application frontend is built using modern web technologies and inc
 - Shopping Cart Management
 - Order Management
 - User Profile Management
+- Favorite Management
 
 ## Project Logic
 ### User Authentication and Authorization
@@ -42,6 +43,11 @@ The Shopping Application frontend is built using modern web technologies and inc
 - **View Profile:** Users can view their profile details, including name, email, phone number, and address.
 - **Delete Account:** Users can delete their account, which removes their data from the backend.
 
+### Favorite Management
+- **Add to Favorites:** Users can add products to their favorites list.
+- **View Favorites:** Users can view their favorite products.
+- **Remove from Favorites:** Users can remove products from their favorites list.
+
 ## Technology Stack
 ### Frontend
 - **React:** A JavaScript library for building user interfaces.
@@ -53,7 +59,6 @@ The Shopping Application frontend is built using modern web technologies and inc
 ## Installation and Setup
 1. **Clone the Repository:**
     git clone https://github.com/chayaZalaznik/Shopping-Application-Frontend.git
-    cd shopping-application
 2. **Install Frontend Dependencies:**
     npm install
 3. **Run the Frontend Application:**
@@ -65,4 +70,5 @@ The Shopping Application frontend is built using modern web technologies and inc
 - **Browse Products:** Browse the available products and use the search feature to find specific items.
 - **Manage Cart:** Add products to your cart, update quantities, and remove items as needed.
 - **Place Orders:** Review your cart and place an order for the items.
--**View Orders and Profile: Access your order history and update your profile information. There is also an option to delete your profile
+- **View Orders and Profile:** Access your order history and update your profile information. There is also an option to delete your profile.
+- **Manage Favorites:** Add products to your favorites list and view or remove them as needed.
